@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="opengapps" fetch="https://github.com/opengapps/"  />
-
-
-    <remove-project name="LineageOS/android_packages_apps_AudioFX" />
-
-    <project path="device/oukitel/K6000Pro" name="Ottavio97/android_device_oukitel_K6000Pro"/>
-	<project path="vendor/oukitel/K6000Pro" name="Ottavio97/android_vendor_oukitel_K6000Pro"/>
+	<remote name="cod3r" fetch="https://github.com/Ottavio97/" />
+	
+	<remove-project name="LineageOS/android_packages_apps_AudioFX" />
+	
+	<project path="device/oukitel/K6000Pro" name="android_device_oukitel_K6000Pro" revision="master" remote="cod3r"/>
+	<project path="vendor/oukitel/K6000Pro" name="android_vendor_oukitel_K6000Pro" revision="master" remote="cod3r"/>
 
 	<project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />
 	<project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" />
