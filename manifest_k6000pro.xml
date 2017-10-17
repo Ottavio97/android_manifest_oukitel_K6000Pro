@@ -8,6 +8,8 @@
 	<project path="device/oukitel/K6000Pro" name="android_device_oukitel_K6000Pro" revision="master" remote="cod3r"/>
 	<project path="vendor/oukitel/K6000Pro" name="android_vendor_oukitel_K6000Pro" revision="master" remote="cod3r"/>
 
+	<project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
+	<project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps" />
 	<project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />
 	<project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" />
 </manifest>
